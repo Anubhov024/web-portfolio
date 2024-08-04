@@ -1,0 +1,92 @@
+body{
+    margin: 0px 0px 0px 0px;
+    font-family: sans-serif;
+    background-image: url(images/24.jpg);
+}
+h1{
+    font-size: 50px;
+    color: grey;
+}
+#engineer{
+    color: rgb(60, 59, 59);
+}
+.Anubhov{
+    color:purple;
+    font-weight: 50px;
+}
+#intro{
+    color: grey;
+}
+.half-width1{
+    width: 45%;
+    float: left;
+    margin-left: 5%;
+}
+.background1{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    color: grey;
+}
+section{
+    height: 500px;
+}
+.Hire{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    background-image: linear-gradient(violet
+    , purple);
+    border: 2pxpx solid white;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+}
+.half-width2{
+    float: left;
+    margin-left: 5%;
+    width: 45%;
+}
+.background2{
+    background-image: url(images/file.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size:250px;
+    font-family: sans-serif;
+}
+#para2{
+   
+    width: 55%%;
+    color: grey;
+    margin-right:20%;
+}
+.exp{
+ margin-left: 5%;
+ font-size: xx-large;
+ border: 5px solid grey;
+ border-radius: 5px;
+ background-color: grey;
+ width: 220px;
+}
+.half-width3{
+    margin-left: 5%;
+    width: auto;
+    height: 20%;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.783);
+    border-left: 5px solid ;
+    border-image: linear-gradient(rgb(246, 37, 0),orange);
+    border-image-slice: 1;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    float: left;
+}
+.dream{
+    color: grey;
+}
+.footer p{
+color: aliceblue;
+}
+
+
+
+
+
