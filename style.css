@@ -111,7 +111,7 @@ color: aliceblue;
     float: left;
 }
 /* Media Queries for Responsive Design */
-@media (max-width: 768px) {
+@media (max-width: 720px) {
     /* Adjust the width of half-width containers for mobile */
     .half-width1, .half-width2, .half-width3 {
         width: 100%;
