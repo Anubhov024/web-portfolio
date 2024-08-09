@@ -110,48 +110,56 @@ color: aliceblue;
     margin-left: 5%;
     float: left;
 }
-/* Media Queries for Responsive Design */
-@media (max-width: 720px) {
-    /* Adjust the width of half-width containers for mobile */
+@media (max-width: 768px) {
+    /* Make sections full width on mobile */
     .half-width1, .half-width2, .half-width3 {
         width: 100%;
         float: none;
         margin-left: 0;
         margin-right: 0;
+        margin-bottom: 20px; /* Add some space between sections */
     }
 
-    /* Ensure images scale properly on mobile */
+    /* Ensure images fit within the screen */
     img {
         width: 100%;
         height: auto;
     }
 
-    /* Center and resize text elements for mobile */
+    /* Center the main heading */
     h1 {
         font-size: 36px;
         text-align: center;
     }
 
+    /* Center the experience and social sections */
     .exp, .social {
-        width: auto;
+        width: 100%;
         margin: 20px 0;
         text-align: center;
     }
 
-    /* Stack social media links vertically */
+    /* Stack social media links and center them */
     .link {
         margin: 10px 0;
         text-align: center;
+        float: none;
+        width: 100%;
     }
 
+    /* Center and make the "Hire Me" button full width */
     .Hire {
         display: block;
-        margin: 10px auto;
+        width: 100%;
         text-align: center;
+        margin: 10px auto;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+
+    /* Ensure sections are stacked correctly */
+    section {
+        display: block;
+        clear: both;
     }
 }
-
-
-
-
-
