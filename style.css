@@ -110,24 +110,23 @@ color: aliceblue;
     margin-left: 5%;
     float: left;
 }
-@media (max-width: 200px) {
+@media (max-width: 720px) {
     /* Make sections full width on mobile */
     .half-width1, .half-width2, .half-width3 {
         width: 100%;
-        float: none;
         margin-left: 0;
         margin-right: 0;
         margin-bottom: 20px; /* Add some space between sections */
     }
 
     /* Ensure images fit within the screen */
-    .img {
+    img {
         width: 100%;
         height: auto;
     }
 
     /* Center the main heading */
-    .h1 {
+    h1 {
         font-size: 36px;
         text-align: center;
     }
@@ -143,7 +142,7 @@ color: aliceblue;
     .link {
         margin: 10px 0;
         text-align: center;
-        float: none;
+        float: none; /* Removed float */
         width: 100%;
     }
 
@@ -158,8 +157,20 @@ color: aliceblue;
     }
 
     /* Ensure sections are stacked correctly */
-    .section {
+    section {
         display: block;
         clear: both;
     }
+
+    /* Adjust background images for mobile */
+    .background1, .background2, .background3, .background4 {
+        background-size: cover; /* Ensure the background covers the entire section */
+        background-position: center; /* Center the background image */
+        background-repeat: no-repeat; /* Avoid repeating the background image */
+    }
+
+    .background2 {
+        background-position: center; /* Ensure background image is centered */
+    }
 }
+
