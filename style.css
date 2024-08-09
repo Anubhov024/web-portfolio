@@ -110,7 +110,7 @@ color: aliceblue;
     margin-left: 5%;
     float: left;
 }
-@media (max-width: 768px) {
+@media (max-width: 720px) {
     /* Make sections full width on mobile */
     .half-width1, .half-width2, .half-width3 {
         width: 100%;
