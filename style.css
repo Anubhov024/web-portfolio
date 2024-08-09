@@ -110,6 +110,47 @@ color: aliceblue;
     margin-left: 5%;
     float: left;
 }
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    /* Adjust the width of half-width containers for mobile */
+    .half-width1, .half-width2, .half-width3 {
+        width: 100%;
+        float: none;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    /* Ensure images scale properly on mobile */
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Center and resize text elements for mobile */
+    h1 {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .exp, .social {
+        width: auto;
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    /* Stack social media links vertically */
+    .link {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .Hire {
+        display: block;
+        margin: 10px auto;
+        text-align: center;
+    }
+}
+
 
 
 
